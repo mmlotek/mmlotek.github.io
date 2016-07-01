@@ -1,0 +1,67 @@
+body{
+	background-color: #000028;
+	font-family: avenir, arial, sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	color: #fff;
+	line-height: 23px;
+	padding: 50px 0px 50px 0px;
+}
+
+h1 {
+	font-family: "avenir next", arial, sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+}
+
+p {
+
+}
+
+#slogan{
+	text-align:center;
+	font-style: italic;
+	font-size:20px;
+}
+
+div.bio {
+	padding: 0% 22.5% 0% 22.5%;
+	text-align: center;
+	font-size: 17px;
+	letter-spacing: .4px;
+	line-height: 20px;
+}
+
+ul{
+	text-align: left;
+	padding: 0% 0% 0% 44%;
+	font-size: 16px;
+	letter-spacing: .4px;
+	line-height: 19.5px;
+}
+li{
+
+}
+img{
+	height: 440px;
+	width: auto;
+	border-radius: 240px;
+	border: 10px #fff solid;
+}
+
+p.button{
+	text-align: center;
+
+}
+
+button{
+	text-align: center;
+	background-color: #fff;
+	padding: 10px 20px 10px 20px;
+	color: #000028;
+	font-family: "avenir next", arial, sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: .3px;
+}
