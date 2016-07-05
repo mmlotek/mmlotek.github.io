@@ -1,0 +1,73 @@
+body{
+	font-family: 'Scheherazade', times, serif;
+	font-weight: 400;
+	font-size: 21px;
+	letter-spacing: 1.6px;
+	line-height: 1.25em;
+	text-align: center;
+	color: #fff;
+	background-color: #000028;	
+	padding: 50px 0px 50px 0px;
+}
+
+h1 {
+	font-family: 'Raleway', arial, sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+}
+
+p {
+}
+
+#slogan{
+	font-size: 29px;
+	font-style: italic;
+	letter-spacing: 1.25px;	
+	text-align: center;
+}
+
+div.bio {
+	padding: 0% 18% 0% 18%;
+}
+
+div.bulletheader {
+	font-family: 'Raleway', arial, sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	letter-spacing: 1.35px;
+	line-height: 1.25em;
+}
+
+ul{
+	font-size: 21px;
+	letter-spacing: 1.3px;
+	line-height: 1.25em;	
+	text-align: left;
+	padding: 0% 0% 0% 40%;
+}
+li{
+
+}
+img{
+	height: 440px;
+	width: auto;
+	border: 10px #fff solid;
+	border-radius: 240px;
+}
+
+p.button{
+	text-align: center;
+
+}
+
+button{
+	font-family: 'Raleway', arial, sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	letter-spacing: .5px;
+	text-align: center;
+	color: #000028;
+	background-color: #fff;
+	padding: 10px 20px 10px 20px;
+}
