@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Scheherazade:400,700';
+
 body{
 	font-family: 'Scheherazade', times, serif;
 	font-weight: 400;
@@ -9,28 +11,23 @@ body{
 	background-color: #000028;	
 	padding: 50px 0px 50px 0px;
 }
-
 h1 {
 	font-family: 'Raleway', arial, sans-serif;
 	font-weight: 900;
 	font-size: 48px;
 	text-align: center;
 }
-
 p {
 }
-
 #slogan{
 	font-size: 29px;
 	font-style: italic;
 	letter-spacing: 1.25px;	
 	text-align: center;
 }
-
 div.bio {
 	padding: 0% 18% 0% 18%;
 }
-
 div.bulletheader {
 	font-family: 'Raleway', arial, sans-serif;
 	font-weight: 700;
@@ -38,7 +35,6 @@ div.bulletheader {
 	letter-spacing: 1.35px;
 	line-height: 1.25em;
 }
-
 ul{
 	font-size: 21px;
 	letter-spacing: 1.3px;
@@ -47,7 +43,6 @@ ul{
 	padding: 0% 0% 0% 40%;
 }
 li{
-
 }
 img{
 	height: 440px;
@@ -55,12 +50,9 @@ img{
 	border: 10px #fff solid;
 	border-radius: 240px;
 }
-
 p.button{
 	text-align: center;
-
 }
-
 button{
 	font-family: 'Raleway', arial, sans-serif;
 	font-weight: 800;
