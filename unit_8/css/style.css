@@ -1,0 +1,196 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i';
+
+body{
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-weight: 400;
+	font-size: 21px;
+	letter-spacing: 1.6px;
+	line-height: 26.25px;
+	text-align: center;
+	color: #fff;
+	background-color: #000028;	
+	width: 80%;
+	margin: 0 auto;
+	outline: 1px #fff solid;
+}
+nav {
+	background-color: #fff;
+    border: 0px black solid;
+    padding: 20px;
+}
+header {
+    padding: 20px;
+}
+img{
+	height: auto;
+	width: 50.7%;
+	border: 10px #fff solid;
+	border-radius: 50%;
+}
+h1 {
+	font-family: 'Raleway', arial, sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+	line-height: 1em;
+}
+p {
+}
+#slogan{
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 1.38em;
+	letter-spacing: .11em;	
+	text-align: center;
+}
+/*span.image {
+	padding: 0% 18% 0% 18%;
+}
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+section#two_column {
+}
+
+#left {
+	float:left;
+    padding: 20px;
+    width: 58%;
+}
+#right {
+	float:right;
+	background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    color: #000028;
+    margin: 4% 0 0 0;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+p.bullet_header {
+	font-family: 'Raleway', arial, sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: .064em;
+	line-height: 1.25em;
+}
+ul{
+	font-size: 1em;
+	letter-spacing: .064em;
+	line-height: 1.25em;	
+	text-align: left;
+}
+li{
+}
+
+#projects {
+
+}
+section#contact_us{
+	text-align: center;
+	font-family: 'Raleway', arial, sans-serif;
+	font-weight: 800;
+	font-size: .85em;
+	letter-spacing: .024em;
+}
+div.button{
+	text-align: center;
+	color: #000028;
+	background-color: #fff;
+	padding: 10px 20px;
+	margin: 20px 350px;
+	text-decoration: none;
+	text-transform: uppercase;
+	opacity: .8;
+}
+div.button:hover{
+	opacity: 1;
+}
+footer {
+	background-color: #fff;
+	color: #000028;
+    border: 0px black solid;
+    padding: 20px;
+    text-align: left;
+    font-size: .76em;
+}	
+
+@media screen and (max-width: 800px){
+body{
+	font-size: 18px;
+	letter-spacing: 1.25px;
+	line-height: 21px;
+	text-align: center;
+	color: #fff;
+	background-color: #000028;	
+	width: 80%;
+	margin: 0 auto;
+	outline: 1px #fff solid;
+}	
+p#slogan {
+	font-size: 1.28em;
+}
+section#two_column {
+    border: none;
+    margin: 5%;
+}
+
+#left {
+	display: block;
+	width: 80%;
+	margin: 0 0 0 5%;
+	padding: 20px;
+}
+#right {
+	display:block;
+	float:left;
+	width: 80%;
+	margin: 0 3% 0 6%;
+	padding: 20px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+}
+@media screen and (max-width: 400px){
+body{
+	font-size: 16px;
+	letter-spacing: 1.25px;
+	line-height: 21px;
+	text-align: center;
+	color: #fff;
+	background-color: #000028;	
+	width: 95%;
+	margin: 0 auto;
+	outline: 1px #fff solid;
+}	
+
+section#two_column {
+    border: none;
+    margin: 0%;
+}
+#left{
+	 width: 90%;
+	 margin: 0;
+	 padding: 0px 20px;
+}
+
+#right {
+	display: none;
+}
+}
